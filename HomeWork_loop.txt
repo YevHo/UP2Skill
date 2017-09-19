@@ -1,0 +1,29 @@
+sh-4.4$ mkdir Date && touch Date/Date_{a..e}.txt                                                                                                                                                                   
+sh-4.4$ ls                                                                                                                                                                                                         
+Date  README.txt                                                                                                                                                                                                   
+sh-4.4$ cd Date                                                                                                                                                                                                    
+sh-4.4$ ls                                                                                                                                                                                                         
+Date_a.txt  Date_b.txt  Date_c.txt  Date_d.txt  Date_e.txt                                                                                                                                                         
+sh-4.4$ for i in *.txt; do date >> "$i"; done                                                                                                                                                                      
+sh-4.4$ cat Date_a.txt                                                                                                                                                                                             
+Tue Sep 19 20:36:26 UTC 2017                                                                                                                                                                                       
+sh-4.4$ cat Date_e.txt                                                                                                                                                                                             
+Tue Sep 19 20:36:26 UTC 2017                                                                                                                                                                                       
+sh-4.4$ cd ..                                                                                                                                                                                                      
+sh-4.4$ s                                                                                                                                                                                                          
+sh: s: command not found                                                                                                                                                                                           
+sh-4.4$ ls                                                                                                                                                                                                         
+Date  README.txt                                                                                                                                                                                                   
+sh-4.4$ rm -rf Date                                                                                                                                                                                                
+sh-4.4$ ls                                                                                                                                                                                                         
+README.txt                                                                                                                                                                                                         
+sh-4.4$                                                                                                                                                                                                           
+                                                                                                                                                                                                                   
+                                                                                                                                                                                                                   
+                                                                                                                                                                                                                   
+                                                                                                                                                                                                                   
+                                                                                                                                                                                                                   
+                                                                                                                                                                                                                   
+                                                                                                                                                                                                                   
+                                                                                                                                                                                                                   
+              
